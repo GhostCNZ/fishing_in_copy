@@ -4,7 +4,6 @@ from loguru import logger
 
 # 节日锚点
 holiday_list = [
-    # {"张颖生日": "2021-11-26"},
     {"平安夜": "2021-12-24"},
     {"圣诞节": "2021-12-25"},
     {"元旦假期": "2022-01-01"},
@@ -51,7 +50,7 @@ def get_weather():
     """
     url = f"http://apis.juhe.cn/simpleWeather/query"
     params = {
-        'city': '太原',
+        'city': '北京',
         'key': '7612ddda2313a41481327cbef5261b46',
     }
     try:
